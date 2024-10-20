@@ -4,7 +4,9 @@ setInterval(() => {
     const min = time.getMinutes();
     const sec = time.getSeconds();
 
-    document.querySelector(".CurrenttimeCont").innerHTML = `${hours} : ${min} : ${sec}`;
+    document.querySelector("#hours").innerHTML = `${hours}`;
+    document.querySelector("#min").innerHTML = `${min}`;
+    document.querySelector("#sec").innerHTML = `${sec}`;
 }, 1000)
 
 
