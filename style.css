@@ -61,12 +61,6 @@
   margin: 0.3rem;
   overflow: auto;
 }
-.calender {
-  width: auto;
-  height: 6rem;
-  padding: 0.2rem;
-  margin: 0.3rem;
-}
 .notes {
   width: auto;
   height: 13rem;
@@ -121,4 +115,29 @@
   display: flex;
   align-items: end;
   font-size: 0.5rem;
+}
+.calender-header {
+  display: flex;
+  justify-content: space-around;
+}
+.calender-days {
+  display: flex;
+}
+.calender {
+  width: 350px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+.calender-dates {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  background-color: #82868b;
+  color: white;
+  padding: 10px 0;
 }
