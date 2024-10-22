@@ -94,6 +94,31 @@
   border-radius: 5px;
 }
 .task-item {
-  margin: 0.5rem 0.2rem;
-  border: 2px solid black;
+  margin: 0.2rem 0rem;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+.checkboxandtasktext {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.checkboxandtasktext input {
+  margin: 0 0.8rem 0 0.5rem;
+}
+.task-item button {
+}
+.taskTimeAndDeleteButton {
+  display: flex;
+}
+.tasktex {
+  margin: 0 1rem;
+}
+
+.tasktime {
+  margin: 0 1rem;
+  display: flex;
+  align-items: end;
+  font-size: 0.5rem;
 }
